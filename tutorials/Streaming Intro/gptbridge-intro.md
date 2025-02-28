@@ -55,6 +55,9 @@ to the main target. If you're starting fresh, we'll go over adding it.
 
 ### Project Setup
 
+1. Download the [Starter Project](Starter.zip) - you will use this to learn to implement
+streaming using GPTBridge.
+
 The starter project contains an app you can use to follow along with.
  > `Tip`: GPTBridge is already added as a dependency in the starter project, but 
  this is a reference for you to add it in your own project.
