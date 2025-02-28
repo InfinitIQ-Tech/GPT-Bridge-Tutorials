@@ -170,7 +170,7 @@ public class GPTBridge {
 
 GPTBridge uses a dedicated streaming manager (**StreamingRequestManager.swift**) along with a class that handles the events (**ThreadRunStatusStreamer**) to handle Server-Sent Events (SSE), chunk by chunk. Feel free to explore this files if you'd like to understand how GPTBridge decodes SSE lines into partial tokens or run-status events.
 
-![Streaming Manager](images/Streaming_Manager.png)
+![Streaming Manager](Images/Streaming_Manager.png)
 
 ---
 
@@ -203,7 +203,7 @@ file in order to provide the static "Preview Agent".
 
 Go ahead and remove "Preview Agent" by changing the `assistants` array to an empty array.
 
-![image](images/Assistants_Empty_Array.png)
+![image](Images/Assistants_Empty_Array.png)
 
 Scroll down to the TODO about using GPTBridge to list assistants. Next:
 
@@ -227,7 +227,7 @@ This must be called before making any calls using GPTBridge or your app will cra
 
 `NOTE`: If an invalid API Key is used, your app will not crash, but OpenAI's servers will return the following error which you should see in the console:
 
-![401 Error](images/Invalid_API_Key_Error.png)
+![401 Error](Images/Invalid_API_Key_Error.png)
 
 Go ahead and place this just before your call to list assistants.
 
