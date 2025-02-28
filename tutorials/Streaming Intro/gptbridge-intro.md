@@ -168,7 +168,7 @@ public class GPTBridge {
 
 ## 1.1: Server Sent Event (SSE) Streaming Support
 
-GPTBridge uses a dedicated streaming manager (**StreamingRequestManager.swift**) along with a class that handles the events (**ThreadRunStatusStreamer**) to handle Server-Sent Events (SSE), chunk by chunk. Feel free to explore this files if you'd like to understand how GPTBridge decodes SSE lines into partial tokens or run-status events.
+GPTBridge uses a dedicated streaming manager (**StreamingRequestManager.swift**) along with a class that handles the events (**ThreadRunStatusStreamer**) to handle Server-Sent Events (SSE), chunk by chunk. Feel free to explore these files if you'd like to understand how GPTBridge decodes SSE lines into partial tokens or run-status events.
 
 ![Streaming Manager](Images/Streaming_Manager.png)
 
@@ -190,7 +190,7 @@ interface.
 
 The title "Chat with Preview Agent" appears at the top, and a text area 
 followed by a "Send" button appears at the bottom. Type a message and 
-press send. You should see your message appear in a grat chat bubble on 
+press send. You should see your message appear in a green chat bubble on 
 the trailing side of the upper part of the UI. Follow along to see what's 
 happening and implement one or more live assistants of your own to chat 
 with.
@@ -223,7 +223,7 @@ At the beginning of the tutorial, I mentioned that you'll need an OpenAI API key
 
 This must be called before making any calls using GPTBridge or your app will crash when not run in the release scheme. 
 
-> `Tip`: GPTBridge uses an assertion (`assert`) so your app won't crash in production code. This is just a "helper" to prevent errors during development.
+> `Tip`: GPTBridge uses an assertion (`assert`) so your app won't crash in production. This is just a "helper" to prevent errors during development.
 
 `NOTE`: If an invalid API Key is used, your app will not crash, but OpenAI's servers will return the following error which you should see in the console:
 
@@ -287,12 +287,6 @@ Create a new thread in OpenAI's API using the user's message and assistantId. Th
 
 ```swift
 let stream = try await GPTBridge.createAndStreamThreadRun(text: message, assistantId: activeAssistant.id)
-```
-
-So far, that's:
-
-```swift
-
 ```
 
 Ignore the warning about `stream` being unused for now. Now you have the `AsyncThrowingStream` object and you 
