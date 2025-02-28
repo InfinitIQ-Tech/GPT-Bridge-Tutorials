@@ -27,7 +27,7 @@ You can add GPT Bridge to your project using Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/InfinitIQ-Tech/GPTBridge.git", branch: "develop")
+    .package(url: "https://github.com/InfinitIQ-Tech/GPT-Bridge.git", branch: "develop")
 ]
 ```
 
