@@ -12,7 +12,7 @@ These tutorials will guide you through the process of integrating and utilizing 
 
 ## Available Tutorials
 
-1. [Streaming Introduction](tutorials/Streaming%20Intro/gptbridge-intro.md)
+1. [Streaming Introduction](tutorials/Streaming%20Intro/gptbridge-intro.html)
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ You can add GPT Bridge to your project using Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/InfinitIQ-Tech/GPTBridge.git", from: "1.0.0")
+    .package(url: "https://github.com/InfinitIQ-Tech/GPTBridge.git", branch: "develop")
 ]
 ```
 
