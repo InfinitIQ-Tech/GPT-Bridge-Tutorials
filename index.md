@@ -4,7 +4,7 @@ Welcome to the official tutorial site for GPT Bridge by InfinitIQ Tech.
 
 ## What is GPT Bridge?
 
-GPT Bridge is a Swift Framework designed to streamline integration with GPT assistants through the OpenAI API. It provides developers with a simple yet powerful interface to leverage AI capabilities in their iOS and macOS applications.
+GPT Bridge is a Swift Framework designed to streamline integration with OpenAI's APIs. It provides developers with a simple yet powerful interface to leverage AI capabilities in their iOS and macOS applications.
 
 ## Getting Started
 
@@ -13,6 +13,8 @@ These tutorials will guide you through the process of integrating and utilizing 
 ## Available Tutorials
 
 1. [Streaming Introduction](tutorials/Streaming%20Intro/gptbridge-intro.html)
+2. [Migrating From GPTBridge Assistants to Chat Completions](tutorials/Completions%20Migration/gptbridge-completions-migration.html)
+3. [Using GPTBridge With the Assistants API](tutorials/Assistants%20API/gptbridge-assistants-api.html)
 
 ## Prerequisites
 
